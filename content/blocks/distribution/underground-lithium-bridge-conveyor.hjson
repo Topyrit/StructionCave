@@ -3,6 +3,7 @@ size: 1
 health: 50
 speed: 0.5
 itemCapacity: 5
+name: underground lithium bridge conveyor
 category: distribution
 range: 8
 requirements: [
