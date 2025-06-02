@@ -1,0 +1,12 @@
+type: Router
+name: platinum router
+size: 1
+speed: 4
+health: 50
+itemCapacity: 1
+requirements: [
+  platinum/2
+]
+squareSprite: false
+category: distribution
+researchCostMultiplier: 0.5

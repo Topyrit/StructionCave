@@ -1,0 +1,78 @@
+type: ItemTurret
+size: 3
+outlineColor: 2a292e
+squareSprite: false
+range: 300
+name: dreadnought
+reload: 20
+recoil: 0
+recoils: 3
+rotatespeed: 1
+shootEffect: shootBig
+shootSound: dreadnoughtBem
+smokeEffect: shootBigSmoke
+drawer: {
+ type: DrawTurret
+ basePrefix: -base
+ parts: [
+  {
+  type: RegionPart
+  suffix: -barrel1
+  under: false
+  mirror: false
+  progress: recoil
+  recoilIndex: 2
+  moveY: -2.8
+  }
+  {
+  type: RegionPart
+  suffix: -barrel2
+  under: false
+  mirror: false
+  progress: recoil
+  recoilIndex: 1
+  moveY: -2.8
+  }
+  {
+  type: RegionPart
+  suffix: -barrel3
+  under: false
+  mirror: false
+  progress: recoil
+  recoilIndex: 0
+  moveY: -2.8
+  }
+ ]
+}
+shoot: {
+  type: ShootAlternate
+  shotDelay: 2
+  spread: 3.4
+}
+ammoTypes: {
+ leproit: {
+  type: BasicBulletType
+  damage: 40
+  ammoMultiplier: 2
+  width: 8
+  height: 8
+  lifetime: 105
+  speed: 2.8
+  lightRadius: 2
+  lightOpacity: 1
+  lightColor: ffffff
+    trailChance: -1
+    trailColor: ED7554FF
+    trailWidth: 1.5
+    trailLength: 9
+    backColor: E58565FF
+    frontColor: D77555FF
+ }
+}
+category: turret
+research: duo
+requirements: [
+ platinum/90
+ lithium/60
+ urbitum/40
+]

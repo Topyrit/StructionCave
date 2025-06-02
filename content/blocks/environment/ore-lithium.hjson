@@ -1,0 +1,4 @@
+type: OreBlock
+name: lithium
+itemDrop: lithium
+variants: 3

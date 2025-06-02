@@ -1,0 +1,12 @@
+  type: CoreBlock
+  name: theta
+  size: 4
+  health: 11500
+  itemCapacity: 12000
+  requirements: [
+  platinum/9600
+  lead/8500
+]
+  category: effect
+  unitType: Omega
+  unitCapModifier: 10

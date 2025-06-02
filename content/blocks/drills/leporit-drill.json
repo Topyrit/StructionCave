@@ -1,0 +1,18 @@
+  type: WallCrafter
+  size: 2
+  category: production
+  drillTime: 200
+  output: leproit
+  attribute: leproit
+  ambientSound: drill
+  ambientSoundVolume: 0.15
+  squareSprite: false
+  requirements: [
+  lithium/30
+  platinum/20
+  ]
+  research: duo
+  researchCost: [lithium/10]
+  consumes: {
+  power: 0.1
+}

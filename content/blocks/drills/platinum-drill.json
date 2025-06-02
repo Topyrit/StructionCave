@@ -1,0 +1,17 @@
+    type: Drill
+    name: platinum-drill
+    size: 2
+    drillTime: 680.50
+    tier: 1
+    floatRotateSpeed: 5
+    drillEffectChance: 1.5
+    itemCapacity: 5
+    drawMineItem: true
+    consumes: {
+    power: 0.06
+}
+    requirements: [
+    platinum/5
+]
+category: production
+

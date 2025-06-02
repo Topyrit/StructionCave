@@ -1,0 +1,15 @@
+type: BeamNode
+name: platinum-ordinary-node
+squareSprite: false
+hasPower: true
+allowDiagonal: true
+size: 1
+health: 30
+range: 7
+laserColor1: C4B0CEFF
+laserColor2: DEDEDEFF              
+category: power
+requirements: [
+    platinum/5
+              ]
+category: power

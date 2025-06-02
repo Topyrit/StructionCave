@@ -1,0 +1,21 @@
+type: LightBlock
+size: 1
+health: 65
+radius: 40
+brightness: 1
+itemCapacity: 30
+consumes:{ 
+	items: [leproit/1]
+}
+itemDuration: 1800
+squareSprite: true
+category: effect
+requirements: [
+	lithium/15
+	urbitum/5
+]
+research: copper
+researchCost: [
+	lithium/35
+	urbitum/10
+]

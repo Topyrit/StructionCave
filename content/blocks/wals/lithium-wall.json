@@ -1,0 +1,8 @@
+type: Wall
+name: lithium wall
+health: 1200
+size: 1
+requirements: [
+  lithium/5
+ ]
+category: defense

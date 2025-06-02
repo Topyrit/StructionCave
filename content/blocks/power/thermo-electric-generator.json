@@ -1,0 +1,28 @@
+type: ConsumeGenerator
+size: 2
+category: power
+research: duo
+itemDuration: 60
+powerProduction: 3.5
+squareSprite: false
+drawer: {
+  type: DrawMulti
+  drawers: [
+   {
+	  type: DrawGlowRegion
+      suffix: -top
+      blending: additive
+      color: FA673EFF
+    }
+	{
+      type: DrawRegion
+      suffix: -bottom
+    }
+	]
+	}
+requirements: [platinum/50]
+  consumes: {
+  items: [
+  leproit/1.2
+  ]
+}

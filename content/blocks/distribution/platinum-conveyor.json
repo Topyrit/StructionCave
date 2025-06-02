@@ -1,0 +1,19 @@
+{
+  "type": "Duct",
+  "health": 5,
+  "isDuct": true,
+  "name":"platinumConveyor",
+  "speed": 6,
+  "itemCapacity": 3,
+  "requirements": 
+  [
+    
+    "platinum/1"
+  ]
+}
+
+
+
+
+
+

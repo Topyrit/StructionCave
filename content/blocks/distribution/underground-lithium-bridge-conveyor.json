@@ -1,0 +1,10 @@
+type: BufferedItemBridge
+size: 1
+health: 50
+speed: 0.5
+itemCapacity: 5
+category: distribution
+range: 8
+requirements: [
+lithium/5
+]

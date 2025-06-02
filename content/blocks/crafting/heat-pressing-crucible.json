@@ -1,0 +1,36 @@
+type: GenericCrafter
+name: heat pressing crucible
+size: 2
+itemCapacity: 20
+craftTime: 80
+category: crafting
+requirements: [
+ platinum/20
+ lithium/60
+]
+consumes: {
+  power: 0.8
+  items: [
+  leproit/2
+  lithium/1
+  ]
+}
+drawer: {
+  type: DrawMulti
+  drawers: [
+   {
+   type: DrawDefault
+   }
+   {
+    type: DrawFlame
+    flameRadius: 2       
+    flameRadiusIn: 1
+    flameRadiusScl: 2.5
+    flameRadiusMag: 1.5
+    flameRadiusInMag: 1.5 
+	flameColor: FF7F5CFF
+   }
+  ]
+ }         
+craftEffect: smeltsmoke
+outputItem: urbitum/1

@@ -1,0 +1,4 @@
+type: OreBlock
+name: platinum
+itemDrop: platinum
+variants: 3

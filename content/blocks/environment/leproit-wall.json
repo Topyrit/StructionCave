@@ -1,0 +1,7 @@
+name: leproit-wall
+type: StaticWall
+variants: 4
+itemDrop: leproit
+attributes: {
+  leproit: 1
+}

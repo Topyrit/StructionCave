@@ -1,0 +1,16 @@
+type: OverdriveProjector
+size: 1
+health: 120
+hasBoost: false
+baseColor: ffffff
+range: 7.3
+speedBoost: 2.2
+consumes: {
+	power: 1.5
+}
+requirements: [
+	copper/150
+	lead/85
+]
+research: duo
+category: effect

@@ -1,0 +1,38 @@
+type: ItemTurret
+size: 2
+reload: 500
+health: 950
+squareSprite: false
+targetGround: true
+targetAir: false
+range: 1500
+outlineColor: 1E1D23FF
+rotateSpeed: 1.2
+accurateDelay: false
+shootCone: 1
+consumes: {
+    power: 1.5
+}
+shoot: {
+  type: ShootBarrel
+  shots: 1
+  barrels: [
+    0, -6, 0
+  ]
+}
+ammoPerShot: 1
+ammoTypes: {
+  platinum: {
+    ammoMultiplier: 5
+    displayAmmoMultiplier: false
+    spawnUnit: platinum-rocket
+  }
+}
+requirements: [
+    lithium/60
+    platinum/90
+]
+researchCost: [
+    copper/1
+  ]
+category: turret
