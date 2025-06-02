@@ -11,7 +11,7 @@
     power: 0.6
 }
     requirements: [
-    platinum/25
+    platinum/60
 ]
 category: production
 
