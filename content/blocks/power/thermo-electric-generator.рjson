@@ -1,7 +1,6 @@
 type: ConsumeGenerator
 size: 2
 category: power
-research: duo
 buildlight: 5
 itemDuration: 60
 powerProduction: 3.5
