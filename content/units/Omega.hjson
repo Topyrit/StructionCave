@@ -30,3 +30,26 @@ buildSpeed: 0.5
 drag: 0.4
 itemCapacity: 25
 outlineColor: 2A292EFF
+weapons: [
+    {
+        type: RepairBeamWeapon
+    widthSinMag: 0.29
+        x: 0
+        y: 2
+        mirror: false
+        shootY: 0
+    beamWidth: 0.385
+        repairSpeed: 3.955
+        fractionRepairSpeed: 0.2
+        shootCone: 15
+        targetUnits: true
+        targetBuildings: true
+        autoTarget: false
+        controllable: true
+        laserColor: A0ABBAFF
+        healColor: DEDEDEFF
+    bullet: {
+    maxRange: 10.50
+  }
+    }
+]
