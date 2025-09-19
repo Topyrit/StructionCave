@@ -1,4 +1,4 @@
 type: OreBlock
-name: uranium ore
+name: uranium
 itemDrop: uranium
 variants: 4
