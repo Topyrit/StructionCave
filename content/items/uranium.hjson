@@ -3,3 +3,4 @@ name: "uranium"
 description: "so far, it's not a dangerous material. Use an electro-chemical plant to create an isotope."
 сolor: 8F8B7EFF
 cost: 3
+hardness: 3
