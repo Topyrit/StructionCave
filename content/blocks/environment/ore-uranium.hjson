@@ -2,3 +2,4 @@ type: OreBlock
 name: uranium
 itemDrop: uranium
 variants: 4
+hardness: 2
