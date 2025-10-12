@@ -42,7 +42,7 @@ shoot: {
 ammoTypes: {
  leproit: {
   type: BasicBulletType
-  damage: 40
+  damage: 15
   ammoMultiplier: 2
   width: 8
   height: 8
@@ -64,4 +64,5 @@ research: duo
 requirements: [
  platinum/20
  lithium/55
+
 ]
