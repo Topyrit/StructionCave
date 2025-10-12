@@ -8,7 +8,7 @@ hitSize: 6
 speed: 0.6
 drag: 0.4
 rotateSpeed: 2
-legCount: 6
+legCount: 4
 legLength: 10
 legMoveSpace: 1.4
 legBaseOffset: 0.6
