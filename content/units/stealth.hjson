@@ -6,12 +6,12 @@ armor: 0.1
 outlineColor: 2A292EFF
 hitSize: 8
 speed: 0.6
-drag: 0.2
+drag: 0.4
 rotateSpeed: 2
 legCount: 4
 legLength: 9
-legMoveSpace: 2.5
-legBaseOffset: 0.5
+legMoveSpace: 1.2
+legBaseOffset: 1
 hovering: true
 legForwardScl: 0.9
     
