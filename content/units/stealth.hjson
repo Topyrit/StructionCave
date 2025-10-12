@@ -9,7 +9,7 @@ speed: 0.5
 drag: 0.4
 rotateSpeed: 3
 legCount: 4
-legLength: 6
+legLength: 9
 legForwardScl: 0.8
 legMoveSpace: 1.4
 legBaseOffset: 1.6
