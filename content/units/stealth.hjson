@@ -1,0 +1,16 @@
+type: legs
+name: stealth 
+description: a weak and inexpensive unit, it was researched from the enemy's wreckage, and a production factory was later established
+health: 190
+armor: 0.1
+outlineColor: 2A292EFF
+hitSize: 6
+speed: 0.5
+drag: 0.4
+rotateSpeed: 3
+legCount: 4
+legLength: 13
+legForwardScl: 0.8
+legMoveSpace: 1.4
+legBaseOffset: 2
+hovering: true
