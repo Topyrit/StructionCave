@@ -10,7 +10,7 @@ drag: 0.1
 rotateSpeed: 2
 legCount: 4
 legLength: 7.4
-legMoveSpace: 1.1
+legMoveSpace: 1.6
 legBaseOffset: 3
 hovering: true
 legForwardScl: 0.9
