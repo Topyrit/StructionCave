@@ -1,0 +1,9 @@
+type: Wall
+name: lithium wall big
+health: 5400
+size: 2
+requirements: [
+  lithium/25
+ ]
+category: defense
+squareSprite: false
